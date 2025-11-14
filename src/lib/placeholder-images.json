@@ -1,0 +1,418 @@
+{
+  "placeholderImages": [
+    {
+      "id": "hero-1",
+      "description": "Happy white dog running in sunny park",
+      "imageUrl": "https://images.unsplash.com/photo-1494947665470-20322015e3a8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxkb2clMjBwYXJrfGVufDB8fHx8MTc2MzAyODE3NXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "dog park"
+    },
+    {
+      "id": "hero-2",
+      "description": "Groomer gently brushing a Persian cat",
+      "imageUrl": "https://images.unsplash.com/photo-1681396990341-ee6e4bd0a7bf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxjYXQlMjBncm9vbWluZ3xlbnwwfHx8fDE3NjMwNTI5MjN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "cat grooming"
+    },
+    {
+      "id": "hero-3",
+      "description": "Veterinarian examining a playful puppy",
+      "imageUrl": "https://images.unsplash.com/photo-1599443134706-e67758159cdc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHx2ZXRlcmluYXJpYW4lMjBwdXBweXxlbnwwfHx8fDE3NjMwNDc0Mzd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "veterinarian puppy"
+    },
+    {
+      "id": "hero-4",
+      "description": "Pet owner shopping with their dog",
+      "imageUrl": "https://images.unsplash.com/photo-1588099140103-eb7e0ae84d00?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxwZXQlMjBzdG9yZXxlbnwwfHx8fDE3NjI5NzQ4MTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "pet store"
+    },
+    {
+      "id": "service-grooming",
+      "description": "Groomer bathing a happy golden retriever",
+      "imageUrl": "https://images.unsplash.com/photo-1597595735781-6a57fb8e3e3d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxkb2clMjBiYXRofGVufDB8fHx8MTc2Mjk3MjM1MHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "dog bath"
+    },
+    {
+      "id": "service-clinic",
+      "description": "Friendly vet with stethoscope examining a cat",
+      "imageUrl": "https://images.unsplash.com/photo-1644626486196-908981bffc73?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHx2ZXRlcmluYXJpYW4lMjBjYXR8ZW58MHx8fHwxNzYzMDA2Nzk3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "veterinarian cat"
+    },
+    {
+      "id": "service-store",
+      "description": "Shelves stocked with colorful pet products",
+      "imageUrl": "https://images.unsplash.com/photo-1631511231050-24f8dba10537?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxwZXQlMjBwcm9kdWN0c3xlbnwwfHx8fDE3NjI5NjgyOTl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "pet products"
+    },
+    {
+      "id": "grooming-hero",
+      "description": "Side profile of a beautifully groomed dog",
+      "imageUrl": "https://images.unsplash.com/photo-1750256313907-6f676b3d1101?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxncm9vbWVkJTIwZG9nfGVufDB8fHx8MTc2Mjk3NDgxMnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "groomed dog"
+    },
+    {
+      "id": "clinic-hero",
+      "description": "A veterinarian holding a small puppy",
+      "imageUrl": "https://images.unsplash.com/photo-1571950337229-f78566132580?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHx2ZXRlcmluYXJpYW4lMjBwdXBweXxlbnwwfHx8fDE3NjMwNDc0Mzd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "veterinarian puppy"
+    },
+    {
+      "id": "products-hero",
+      "description": "A happy dog in a pet store aisle",
+      "imageUrl": "https://images.unsplash.com/photo-1697977412852-e040cf6fd06b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxkb2clMjBzdG9yZXxlbnwwfHx8fDE3NjI5NzQ4MTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "dog store"
+    },
+    {
+      "id": "about-hero",
+      "description": "A collection of happy pets together",
+      "imageUrl": "https://images.unsplash.com/photo-1534361960057-19889db9621e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxoYXBweSUyMHBldHN8ZW58MHx8fHwxNzYzMDUyNDE1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "happy pets"
+    },
+    {
+      "id": "contact-hero",
+      "description": "A pet owner petting their dog",
+      "imageUrl": "https://images.unsplash.com/photo-1532469060546-4eb37b460481?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxwZXQlMjBvd25lcnxlbnwwfHx8fDE3NjI5NzQ4MTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "pet owner"
+    },
+    {
+      "id": "breed-id-hero",
+      "description": "A person taking a photo of their dog",
+      "imageUrl": "https://images.unsplash.com/photo-1610878237189-81306e16bd89?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxwZXQlMjBwaG90b3xlbnwwfHx8fDE3NjI5NzQ4MTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "pet photo"
+    },
+    {
+      "id": "404-pet",
+      "description": "A confused puppy with its head tilted",
+      "imageUrl": "https://images.unsplash.com/photo-1601979031895-e5fb94fa0ae0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxjb25mdXNlZCUyMHB1cHB5fGVufDB8fHx8MTc2Mjk3NDgxMnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "confused puppy"
+    },
+    {
+      "id": "doctor-1",
+      "description": "Illustrated avatar of a male veterinarian",
+      "imageUrl": "https://images.unsplash.com/photo-1551601651-2a8555f1a136?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxtYWxlJTIwZG9jdG9yfGVufDB8fHx8MTc2MzA3NzEzMXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "male doctor"
+    },
+    {
+      "id": "doctor-2",
+      "description": "Illustrated avatar of a female veterinarian",
+      "imageUrl": "https://images.unsplash.com/photo-1685022036259-04cf91a89af1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8ZmVtYWxlJTIwZG9jdG9yfGVufDB8fHx8MTc2MzA0MDU4Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "female doctor"
+    },
+    {
+      "id": "doctor-3",
+      "description": "Illustrated avatar of a male veterinarian",
+      "imageUrl": "https://images.unsplash.com/photo-1662013606266-e13203a1b272?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxtYWxlJTIwcHJvZmVzc2lvbmFsfGVufDB8fHx8MTc2MzA5MjEyMXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "male professional"
+    },
+    {
+      "id": "product-dry-food",
+      "description": "Kibble in a bowl",
+      "imageUrl": "https://images.unsplash.com/photo-1632236568054-12f36ecee2f6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxkb2clMjBmb29kfGVufDB8fHx8MTc2MzAyMTUxM3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "dog food"
+    },
+    {
+      "id": "product-wet-food",
+      "description": "Canned food and pouches",
+      "imageUrl": "https://images.unsplash.com/photo-1619995746608-bef3de4f075a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxjYW5uZWQlMjBmb29kfGVufDB8fHx8MTc2Mjk5MTU1Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "canned food"
+    },
+    {
+      "id": "product-cat-food",
+      "description": "Cat food varieties",
+      "imageUrl": "https://images.unsplash.com/photo-1616668983570-a971956d8928?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjYXQlMjBmb29kfGVufDB8fHx8MTc2MzA1Mjg2M3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "cat food"
+    },
+    {
+      "id": "product-breed-food",
+      "description": "Premium brand dog food",
+      "imageUrl": "https://images.unsplash.com/photo-1514606725477-41cd6d9cb51f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxwcmVtaXVtJTIwZm9vZHxlbnwwfHx8fDE3NjI5NzQ4MTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "premium food"
+    },
+    {
+      "id": "product-puppy-food",
+      "description": "Starter pack for young pets",
+      "imageUrl": "https://images.unsplash.com/photo-1662279059788-9084be005a95?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxwdXBweSUyMGZvb2R8ZW58MHx8fHwxNzYyOTc0ODEyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "puppy food"
+    },
+    {
+      "id": "product-small-pet-food",
+      "description": "Hamster with pellets",
+      "imageUrl": "https://images.unsplash.com/photo-1657399621130-67f3e1bd8da7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxoYW1zdGVyJTIwZm9vZHxlbnwwfHx8fDE3NjI5NzQ4MTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "hamster food"
+    },
+    {
+      "id": "product-bird-food",
+      "description": "Parakeet with seed mix",
+      "imageUrl": "https://images.unsplash.com/photo-1716568146499-882b720091a7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxiaXJkJTIwZm9vZHxlbnwwfHx8fDE3NjI5NzQ4MTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "bird food"
+    },
+    {
+      "id": "product-fish-food",
+      "description": "Tropical fish food",
+      "imageUrl": "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxmaXNoJTIwZm9vZHxlbnwwfHx8fDE3NjI5NjgyOTl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "fish food"
+    },
+    {
+      "id": "product-grain-free",
+      "description": "Premium grain-free food",
+      "imageUrl": "https://images.unsplash.com/photo-1664802460256-5e1ea9edea42?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxuYXR1cmFsJTIwZm9vZHxlbnwwfHx8fDE3NjMwNTI5MjN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "natural food"
+    },
+    {
+      "id": "product-training-treats",
+      "description": "Small bite-sized treats",
+      "imageUrl": "https://images.unsplash.com/photo-1579352343116-84e1e827bb47?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxkb2clMjB0cmVhdHN8ZW58MHx8fHwxNzYyOTU4NTIzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "dog treats"
+    },
+    {
+      "id": "product-chew-sticks",
+      "description": "Dog with dental stick",
+      "imageUrl": "https://images.unsplash.com/photo-1596365128915-1e3fc4db69e2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxkb2clMjBjaGV3fGVufDB8fHx8MTc2Mjk3NDgxMnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "dog chew"
+    },
+    {
+      "id": "product-jerky",
+      "description": "Meat jerky treats",
+      "imageUrl": "https://images.unsplash.com/photo-1624384453081-d6cabc69cab9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxtZWF0JTIwamVya3l8ZW58MHx8fHwxNzYyOTc0ODEyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "meat jerky"
+    },
+    {
+      "id": "product-biscuits",
+      "description": "Colorful dog biscuits",
+      "imageUrl": "https://images.unsplash.com/photo-1609075689223-58f5120b3d96?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxkb2clMjBiaXNjdWl0c3xlbnwwfHx8fDE3NjI5NzQ4MTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "dog biscuits"
+    },
+    {
+      "id": "product-dental-chews",
+      "description": "Dental cleaning treats",
+      "imageUrl": "https://images.unsplash.com/photo-1605292530210-56b8be409237?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxkZW50YWwlMjBjaGV3fGVufDB8fHx8MTc2Mjk3NDgxMnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "dental chew"
+    },
+    {
+      "id": "product-natural-treats",
+      "description": "Natural treats assortment",
+      "imageUrl": "https://images.unsplash.com/photo-1761660304474-d921d4d3f49d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxuYXR1cmFsJTIwdHJlYXRzfGVufDB8fHx8MTc2Mjk3NDgxMnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "natural treats"
+    },
+    {
+      "id": "product-catnip",
+      "description": "Cat with catnip toy",
+      "imageUrl": "https://images.unsplash.com/photo-1736331552078-fb63b825c355?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxjYXQlMjBjYXRuaXB8ZW58MHx8fHwxNzYyOTc0ODEyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "cat catnip"
+    },
+    {
+      "id": "product-lickable-treats",
+      "description": "Cat licking treat tube",
+      "imageUrl": "https://images.unsplash.com/photo-1716223918363-82f7fddcd903?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxjYXQlMjB0cmVhdHxlbnwwfHx8fDE3NjI5NzQ4MTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "cat treat"
+    },
+    {
+      "id": "product-chew-toys",
+      "description": "Durable rubber chew toy",
+      "imageUrl": "https://images.unsplash.com/photo-1529016011223-8ee9873aef1d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxjaGV3JTIwdG95fGVufDB8fHx8MTc2MzA1MjkyM3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "chew toy"
+    },
+    {
+      "id": "product-plush-toys",
+      "description": "Soft plush animal toy for dogs",
+      "imageUrl": "https://images.unsplash.com/photo-1687708522434-6197bb47c933?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxwbHVzaCUyMHRveXxlbnwwfHx8fDE3NjMwNTI5MjN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "plush toy"
+    },
+    {
+      "id": "product-puzzle-toys",
+      "description": "Interactive dog puzzle toy",
+      "imageUrl": "https://images.unsplash.com/photo-1668626781268-8b988c940dc7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxwdXp6bGUlMjB0b3l8ZW58MHx8fHwxNzYzMDUyOTIzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "puzzle toy"
+    },
+    {
+      "id": "product-fetch-toys",
+      "description": "Brightly colored fetch ball",
+      "imageUrl": "https://images.unsplash.com/photo-1638741279994-a263c0e2d2be?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxmZXRjaCUyMGJhbGx8ZW58MHx8fHwxNzYzMDUyOTIzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "fetch ball"
+    },
+    {
+      "id": "product-cat-wands",
+      "description": "Feather wand for cats",
+      "imageUrl": "https://images.unsplash.com/photo-1708979346051-e809d2059b32?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxjYXQlMjB3YW5kfGVufDB8fHx8MTc2MzA1MjkyNHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "cat wand"
+    },
+    {
+      "id": "product-cat-balls",
+      "description": "Set of colorful cat toy balls",
+      "imageUrl": "https://images.unsplash.com/photo-1669891340245-5b787bb7fa70?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxjYXQlMjBiYWxsc3xlbnwwfHx8fDE3NjMwNTI5MjN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "cat balls"
+    },
+    {
+      "id": "product-leashes",
+      "description": "Colorful nylon dog leash and harness",
+      "imageUrl": "https://images.unsplash.com/photo-1605786043122-2d756bb9e89d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxkb2clMjBsZWFzaHxlbnwwfHx8fDE3NjMwNTI5MjN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "dog leash"
+    },
+    {
+      "id": "product-collars",
+      "description": "Leather dog collar with a name tag",
+      "imageUrl": "https://images.unsplash.com/photo-1586671267731-da2cf3ceeb80?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxkb2clMjBjb2xsYXJ8ZW58MHx8fHwxNzYzMDUyODYzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "dog collar"
+    },
+    {
+      "id": "product-beds",
+      "description": "A comfortable plush dog bed",
+      "imageUrl": "https://images.unsplash.com/photo-1581888475780-27b6b0bc3690?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxkb2clMjBiZWR8ZW58MHx8fHwxNzYyOTY4Mjk5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "dog bed"
+    },
+    {
+      "id": "product-bowls",
+      "description": "Stainless steel pet food bowls",
+      "imageUrl": "https://images.unsplash.com/photo-1729259586703-62bcbb0069ae?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxwZXQlMjBib3dsc3xlbnwwfHx8fDE3NjMwNTI5MjN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "pet bowls"
+    },
+    {
+      "id": "product-carriers",
+      "description": "A soft-sided pet carrier",
+      "imageUrl": "https://images.unsplash.com/photo-1761895324012-5738c59ab355?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxwZXQlMjBjYXJyaWVyfGVufDB8fHx8MTc2MzA1MjkyM3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "pet carrier"
+    },
+    {
+      "id": "product-apparel",
+      "description": "A dog wearing a yellow raincoat",
+      "imageUrl": "https://images.unsplash.com/photo-1740235526197-a822a99e2be4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxkb2clMjByYWluY29hdHxlbnwwfHx8fDE3NjMwNTI5MjN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "dog raincoat"
+    },
+    {
+      "id": "product-litter-box",
+      "description": "A modern hooded cat litter box",
+      "imageUrl": "https://images.unsplash.com/photo-1727510153682-bd4570ad05ce?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxsaXR0ZXIlMjBib3h8ZW58MHx8fHwxNzYzMDUyOTIzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "litter box"
+    },
+    {
+      "id": "product-cages",
+      "description": "A spacious cage for a small bird",
+      "imageUrl": "https://images.unsplash.com/photo-1640581131812-42574f5002dc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8YmlyZCUyMGNhZ2V8ZW58MHx8fHwxNzYzMDUyOTIzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "bird cage"
+    },
+    {
+      "id": "product-shampoo",
+      "description": "Bottle of organic pet shampoo",
+      "imageUrl": "https://images.unsplash.com/photo-1669910803409-a447456beaca?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwZXQlMjBzaGFtcG9vfGVufDB8fHx8MTc2MzA1MjkyM3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "pet shampoo"
+    },
+    {
+      "id": "product-brushes",
+      "description": "A grooming brush and comb set",
+      "imageUrl": "https://images.unsplash.com/photo-1759695408130-190c0d86ea04?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxncm9vbWluZyUyMGJydXNofGVufDB8fHx8MTc2Mjk2Mjc3MXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "grooming brush"
+    },
+    {
+      "id": "product-nail-clippers",
+      "description": "Pet nail clippers with safety guard",
+      "imageUrl": "https://images.unsplash.com/photo-1554271509-aa892b5cd66f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxuYWlsJTIwY2xpcHBlcnN8ZW58MHx8fHwxNzYyOTYyNzcxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "nail clippers"
+    },
+    {
+      "id": "product-paw-care",
+      "description": "A tin of natural paw balm for dogs",
+      "imageUrl": "https://picsum.photos/seed/gr4/400/400",
+      "imageHint": "paw balm"
+    },
+    {
+      "id": "product-flea-tick",
+      "description": "Flea and tick prevention treatment package",
+      "imageUrl": "https://images.unsplash.com/photo-1754420365133-4f2475a249db?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxmbGVhJTIwdHJlYXRtZW50fGVufDB8fHx8MTc2MzA1MjkyM3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "flea treatment"
+    },
+    {
+      "id": "product-deworming",
+      "description": "Box of deworming tablets for dogs",
+      "imageUrl": "https://images.unsplash.com/photo-1616526628220-f7b03df408b3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxkZXdvcm1pbmclMjB0YWJsZXRzfGVufDB8fHx8MTc2MzA1MjkyM3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "deworming tablets"
+    },
+    {
+      "id": "product-supplements",
+      "description": "Bottle of pet joint support supplements",
+      "imageUrl": "https://images.unsplash.com/photo-1704694671866-f83e0b91df09?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwZXQlMjBzdXBwbGVtZW50c3xlbnwwfHx8fDE3NjMwMzAyMzZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "pet supplements"
+    },
+    {
+      "id": "product-rx-diet",
+      "description": "Bag of veterinary diet pet food",
+      "imageUrl": "https://images.unsplash.com/photo-1680959828284-a1f5daaab041?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHx2ZXRlcmluYXJ5JTIwZGlldHxlbnwwfHx8fDE3NjMwNTI5MjN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "veterinary diet"
+    },
+    {
+      "id": "product-first-aid",
+      "description": "A pet first aid kit",
+      "imageUrl": "https://images.unsplash.com/photo-1564144573017-8dc932e0039e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxmaXJzdCUyMGFpZHxlbnwwfHx8fDE3NjMwNDYxNTl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "first aid"
+    },
+    {
+      "id": "product-calming",
+      "description": "Calming diffuser for pets",
+      "imageUrl": "https://images.unsplash.com/photo-1758705739595-e76f4fb55fb5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjYWxtaW5nJTIwYWlkfGVufDB8fHx8MTc2MzA1MjkyM3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "calming aid"
+    },
+    {
+      "id": "grooming-gallery-1",
+      "description": "A small white dog after a haircut",
+      "imageUrl": "https://images.unsplash.com/photo-1646383355400-8383372e8868?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxncm9vbWVkJTIwZG9nfGVufDB8fHx8MTc2Mjk3NDgxMnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "groomed dog"
+    },
+    {
+      "id": "grooming-gallery-2",
+      "description": "Groomer trimming a cat's nails",
+      "imageUrl": "https://images.unsplash.com/photo-1625279138836-e7311d5c863a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjYXQlMjBncm9vbWluZ3xlbnwwfHx8fDE3NjMwNTI5MjN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "cat grooming"
+    },
+    {
+      "id": "grooming-gallery-3",
+      "description": "A fluffy samoyed being blow-dried",
+      "imageUrl": "https://images.unsplash.com/photo-1568631982217-2410538bbd31?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8ZG9nJTIwZHJ5aW5nfGVufDB8fHx8MTc2MzA1MjkyM3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "dog drying"
+    },
+    {
+      "id": "grooming-gallery-4",
+      "description": "A clean and happy Labrador smiling",
+      "imageUrl": "https://images.unsplash.com/photo-1597806999047-9456837df754?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxoYXBweSUyMGRvZ3xlbnwwfHx8fDE3NjI5NjI3NzB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "happy dog"
+    },
+    {
+      "id": "service-full-groom",
+      "description": "A fully groomed poodle posing",
+      "imageUrl": "https://images.unsplash.com/photo-1760538635941-f5ce55dfd8a5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxncm9vbWVkJTIwcG9vZGxlfGVufDB8fHx8MTc2MzA1MjkyM3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "groomed poodle"
+    },
+    {
+      "id": "service-basic-groom",
+      "description": "A dog getting its nails clipped",
+      "imageUrl": "https://images.unsplash.com/photo-1693681865852-def4481fa530?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxuYWlsJTIwY2xpcHBpbmd8ZW58MHx8fHwxNzYzMDUyOTIzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "nail clipping"
+    },
+    {
+      "id": "service-spa",
+      "description": "A cat enjoying a gentle face massage",
+      "imageUrl": "https://images.unsplash.com/photo-1708369818052-a28122ee387f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxjYXQlMjBtYXNzYWdlfGVufDB8fHx8MTc2MzA1MjkyM3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "cat massage"
+    },
+    {
+      "id": "service-cat-groom",
+      "description": "A long-haired cat being brushed",
+      "imageUrl": "https://images.unsplash.com/photo-1755528164308-924bcb2205b8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxjYXQlMjBicnVzaGluZ3xlbnwwfHx8fDE3NjMwNTI5MjN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "cat brushing"
+    },
+    {
+      "id": "service-puppy-groom",
+      "description": "A cute puppy's first bath",
+      "imageUrl": "https://images.unsplash.com/photo-1583534778255-5d67d3dcf95d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxwdXBweSUyMGJhdGh8ZW58MHx8fHwxNzYzMDUyOTIzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "puppy bath"
+    },
+    {
+      "id": "about-story-image",
+      "description": "A collage of happy pets and owners",
+      "imageUrl": "https://images.unsplash.com/photo-1581217184298-f88b12171fb2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxwZXRzJTIwb3duZXJzfGVufDB8fHx8MTc2MzA1MjkyM3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "pets owners"
+    },
+    {
+      "id": "name-generator-bg",
+      "description": "A playful dog with a tennis ball",
+      "imageUrl": "https://images.unsplash.com/photo-1687957772804-087c31a919ba?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxwbGF5ZnVsJTIwZG9nfGVufDB8fHx8MTc2Mjk5Nzg3Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "playful dog"
+    }
+  ]
+}

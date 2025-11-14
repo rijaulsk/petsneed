@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 28 100% 98%;
+    --foreground: 0 0% 17%;
+    --card: 28 100% 98%;
+    --card-foreground: 0 0% 17%;
+    --popover: 28 100% 98%;
+    --popover-foreground: 0 0% 17%;
+    --primary: 12 100% 68%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 15 100% 81%;
+    --secondary-foreground: 0 0% 17%;
+    --muted: 28 20% 90%;
+    --muted-foreground: 0 0% 45.1%;
+    --accent: 155 58% 79%;
+    --accent-foreground: 0 0% 17%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 28 20% 85%;
+    --input: 28 20% 85%;
+    --ring: 12 100% 68%;
+    --radius: 0.8rem;
+  }
+
+  .dark {
+    --background: 0 0% 10%;
+    --foreground: 0 0% 98%;
+    --card: 0 0% 10%;
+    --card-foreground: 0 0% 98%;
+    --popover: 0 0% 10%;
+    --popover-foreground: 0 0% 98%;
+    --primary: 12 100% 68%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 15 100% 81%;
+    --secondary-foreground: 0 0% 17%;
+    --muted: 0 0% 15%;
+    --muted-foreground: 0 0% 63.9%;
+    --accent: 155 58% 79%;
+    --accent-foreground: 0 0% 17%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 0 0% 20%;
+    --input: 0 0% 20%;
+    --ring: 12 100% 68%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground font-body;
+    scroll-behavior: smooth;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-headline;
+  }
+}
+
+@layer utilities {
+  .gradient-text {
+    @apply bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent;
+  }
+  .gradient-background {
+    @apply bg-gradient-to-r from-[#FF7A5C] to-[#FFA07A];
+  }
+  .section-padding {
+    @apply px-5 py-12 md:px-12 md:py-16 lg:py-24;
+  }
+}
