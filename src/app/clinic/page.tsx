@@ -173,19 +173,23 @@ export default function ClinicPage() {
             <AnimatedSection
               animation="fade-in-left"
               delay={200}
-              className="relative aspect-[4/3] group"
+              className="relative"
             >
-              <div className="p-2 bg-gradient-to-br from-primary/20 to-secondary/20 rounded-3xl shadow-lg h-full w-full">
-                {heroImage && (
-                  <Image
-                    src={heroImage.imageUrl}
-                    alt={heroImage.description}
-                    data-ai-hint={heroImage.imageHint}
-                    fill
-                    className="object-cover transition-transform duration-500 ease-in-out group-hover:scale-105 rounded-2xl"
-                    priority
-                  />
-                )}
+              <div className="aspect-[4/3] group">
+                <div className="p-2 bg-gradient-to-tr from-accent/40 to-accent/60 rounded-3xl shadow-lg h-full w-full">
+                  <div className="relative h-full w-full overflow-hidden rounded-2xl">
+                    {heroImage && (
+                      <Image
+                        src={heroImage.imageUrl}
+                        alt={heroImage.description}
+                        data-ai-hint={heroImage.imageHint}
+                        fill
+                        className="object-cover transition-transform duration-500 ease-in-out group-hover:scale-105"
+                        priority
+                      />
+                    )}
+                  </div>
+                </div>
               </div>
             </AnimatedSection>
           </div>

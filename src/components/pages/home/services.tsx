@@ -13,7 +13,7 @@ export function Services() {
         <AnimatedSection as="div" className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold">All Your Pet's Needs</h2>
           <p className="text-lg text-foreground/70 max-w-3xl mx-auto mt-4">
-            From playtime to checkups, we've got you covered under one friendly roof. Quality care for dogs, cats, and small pets across Alipore and South Kolkata.
+            From playtime to checkups, we've got you covered under one friendly roof. Quality care for dogs, cats, and small pets across Alipore and Kolkata.
           </p>
         </AnimatedSection>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
