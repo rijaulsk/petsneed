@@ -179,7 +179,7 @@ export default function ContactPage() {
           <div className="lg:order-1 p-2 bg-gradient-to-tr from-primary/20 to-secondary/20 rounded-3xl shadow-lg h-full w-full">
             <div className="rounded-2xl overflow-hidden shadow-lg h-[400px]">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3685.597155694285!2d88.33081181538356!3d22.51939104033282!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a0279d8b762b375%3A0xe0793626d29a5628!2sPET&#39;S%20NEED!5e0!3m2!1sen!2sin!4v1678886543210!5m2!1sen!2sin"
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d28332.296805898855!2d88.2868882!3d22.5228595!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a0277cd1afad30f%3A0xa5e03916921fc384!2sPet&#39;s%20Need!5e1!3m2!1sen!2sin!4v1763391106493!5m2!1sen!2sin"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
