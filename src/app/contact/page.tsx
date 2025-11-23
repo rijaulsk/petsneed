@@ -20,7 +20,7 @@ import { Mail, MessageCircle } from "lucide-react";
 export const metadata: Metadata = {
   title: "Contact Pet's Need | Pet Care Center in Alipore, Kolkata",
   description:
-    "Contact Pet's Need at 10/1D Diamond Harbour Rd, Alipore, Kolkata. Call 7411576879 for grooming, vet services, pet supplies. Open daily 10 AM - 10 PM. Serving South Kolkata pet families.",
+    "Contact Pet's Need at 10/1D Diamond Harbour Rd, Alipore, Kolkata. Call 9748337732 for grooming, vet services, pet supplies. Open daily 10 AM - 10 PM. Serving South Kolkata pet families.",
 };
 
 const heroImage = PlaceHolderImages.find((p) => p.id === "contact-hero");
@@ -29,7 +29,7 @@ const faqs = [
   {
     question: "What's the best way to reach you?",
     answer:
-      "For immediate assistance, call us at 7411576879. For non-urgent questions, you can also WhatsApp us or email contact@petsneed.in.",
+      "For immediate assistance, call us at 9748337732. For non-urgent questions, you can also WhatsApp us or email contact@petsneed.in.",
   },
   {
     question: "Do I need an appointment?",

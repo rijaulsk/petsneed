@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     default: "Pet's Need | Complete Pet Care Center in Alipore, Kolkata | Grooming, Vet, Supplies",
     template: "%s | Pet's Need"
   },
-  description: "Pet's Need is Alipore, Kolkata's trusted all-in-one pet care center offering professional grooming, veterinary services, and quality pet supplies for dogs, cats, and small pets. 5.0★ rated. Open daily 10 AM-10 PM. Call 7411576879.",
+  description: "Pet's Need is Alipore, Kolkata's trusted all-in-one pet care center offering professional grooming, veterinary services, and quality pet supplies for dogs, cats, and small pets. 5.0★ rated. Open daily 10 AM-10 PM. Call 9748337732.",
   keywords: ['pet care center Alipore', 'pet grooming Kolkata', 'vet clinic Alipore', 'pet shop near me', 'dog grooming Kolkata', 'cat grooming Alipore', 'pet supplies Kolkata', 'veterinary doctor Kolkata', 'pet store Diamond Harbour Road', 'pet care center South Kolkata'],
   authors: [{ name: "Pet's Need" }],
   openGraph: {

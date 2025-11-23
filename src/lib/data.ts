@@ -164,7 +164,7 @@ export const homeFaqs = {
     },
     {
       question: "Do I need an appointment for the vet?",
-      answer: "For clinic services, please call us at 7411576879 before visiting to check doctor availability. Our store and grooming services welcome walk-ins daily.",
+      answer: "For clinic services, please call us at 9748337732 before visiting to check doctor availability. Our store and grooming services welcome walk-ins daily.",
     },
     {
       question: "Where are you located?",

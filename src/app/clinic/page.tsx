@@ -30,7 +30,7 @@ import { Stethoscope } from "lucide-react";
 export const metadata: Metadata = {
   title: "Vet Clinic in Alipore, Kolkata | Veterinary Doctor Near Me",
   description:
-    "Trusted veterinary clinic in Alipore, Kolkata. Experienced vets provide checkups, vaccinations, treatments for dogs, cats, birds, and large animals. Serving South Kolkata. Call 7411576879 for appointment.",
+    "Trusted veterinary clinic in Alipore, Kolkata. Experienced vets provide checkups, vaccinations, treatments for dogs, cats, birds, and large animals. Serving South Kolkata. Call 9748337732 for appointment.",
 };
 
 const heroImage = PlaceHolderImages.find((p) => p.id === "clinic-hero");

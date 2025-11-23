@@ -19,7 +19,7 @@ import { PageShell } from "@/components/page-shell";
 export const metadata: Metadata = {
   title: "Pet Grooming in Alipore, Kolkata | Dog & Cat Grooming",
   description:
-    "Professional pet grooming services in Alipore, Kolkata for dogs, cats, and small animals. Expert groomers, safe products, gentle handling. Book grooming near Behala, Tollygunge. Call 7411576879 today!",
+    "Professional pet grooming services in Alipore, Kolkata for dogs, cats, and small animals. Expert groomers, safe products, gentle handling. Book grooming near Behala, Tollygunge. Call 9748337732 today!",
 };
 
 const heroImage = PlaceHolderImages.find((p) => p.id === "grooming-hero");
