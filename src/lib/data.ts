@@ -297,29 +297,81 @@ export const footerLinks = {
   ]
 }
 
+// export const doctors = [
+//   {
+//     name: "Dr. Amit Chatterjee, BVSc & AH",
+//     experience: "8 years",
+//     specialization: "Small & Large Animal Medicine",
+//     description: "Dr. Chatterjee completed his veterinary degree from West Bengal University of Animal & Fishery Sciences and has been caring for pets across Kolkata for nearly a decade. He specializes in internal medicine, diagnostics, and routine surgical procedures, with a gentle approach that puts nervous pets at ease.",
+//     imageId: "doctor-1",
+//   },
+//   {
+//     name: "Dr. Priya Banerjee, BVSc & AH, MVSc",
+//     experience: "6 years",
+//     specialization: "Preventive Care & Pet Nutrition",
+//     description: "Dr. Banerjee holds both bachelor's and master's degrees in veterinary science, with advanced training in preventive medicine and animal nutrition. She's passionate about educating pet parents on proper diet, weight management, and wellness programs that keep pets thriving throughout their lives.",
+//     imageId: "doctor-2",
+//   },
+//   {
+//     name: "Dr. Arjun Das, BVSc & AH",
+//     experience: "7 years",
+//     specialization: "Emergency Care & Surgical Procedures",
+//     description: "Dr. Das brings extensive experience in emergency veterinary medicine and has performed hundreds of successful surgeries. His calm demeanor and quick decision-making make him invaluable during critical situations. He's also skilled at post-operative care and rehabilitation guidance.",
+//     imageId: "doctor-3",
+//   },
+// ];
+
 export const doctors = [
   {
-    name: "Dr. Amit Chatterjee, BVSc & AH",
-    experience: "8 years",
-    specialization: "Small & Large Animal Medicine",
-    description: "Dr. Chatterjee completed his veterinary degree from West Bengal University of Animal & Fishery Sciences and has been caring for pets across Kolkata for nearly a decade. He specializes in internal medicine, diagnostics, and routine surgical procedures, with a gentle approach that puts nervous pets at ease.",
+    name: "Dr. Rabiul Khan, B.V.Sc. & A.H., M.V.Sc.",
+    experience: "7+ years",
+    specialization: "Veterinary Surgery, Radiology & Advanced Imaging",
+    description:
+      "Dr. Rabiul Khan is a highly skilled veterinary surgeon from WBUAFS, Belgachia. He specializes in small and large animal surgery, radiology, and advanced imaging techniques. With over 7 years of experience, he is known for precise diagnosis, detailed imaging-based evaluation, and compassionate treatment.",
     imageId: "doctor-1",
   },
   {
-    name: "Dr. Priya Banerjee, BVSc & AH, MVSc",
-    experience: "6 years",
-    specialization: "Preventive Care & Pet Nutrition",
-    description: "Dr. Banerjee holds both bachelor's and master's degrees in veterinary science, with advanced training in preventive medicine and animal nutrition. She's passionate about educating pet parents on proper diet, weight management, and wellness programs that keep pets thriving throughout their lives.",
+    name: "Dr. Selim Sk, B.V.Sc. & A.H.",
+    experience: "3+ years",
+    specialization: "General Veterinary Medicine",
+    description:
+      "Dr. Selim Sk completed his veterinary degree from WBUAFS, Belgachia. With more than 3 years of clinical experience, he provides routine consultations, vaccinations, and general medical treatments for dogs, cats, and small animals. He is known for his patient and calm approach to handling pets.",
     imageId: "doctor-2",
   },
   {
-    name: "Dr. Arjun Das, BVSc & AH",
-    experience: "7 years",
-    specialization: "Emergency Care & Surgical Procedures",
-    description: "Dr. Das brings extensive experience in emergency veterinary medicine and has performed hundreds of successful surgeries. His calm demeanor and quick decision-making make him invaluable during critical situations. He's also skilled at post-operative care and rehabilitation guidance.",
+    name: "Dr. Mosiur Rahaman, B.V.Sc. & A.H. (Gold Medalist), M.V.Sc. (Scholar)",
+    experience: "4+ years",
+    specialization: "Veterinary Surgery, Clinical Medicine & Diagnostics",
+    description:
+      "Dr. Mosiur Rahaman, a Gold Medalist and M.V.Sc Scholar at WBUAFS, specializes in clinical medicine, surgical procedures, and advanced diagnostics. With 4+ years of experience, he is recognized for his modern treatment techniques, in-depth evaluations, and strong academic excellence.",
     imageId: "doctor-3",
   },
+  {
+    name: "Dr. Sukanta Mondal, B.V.Sc. & A.H., M.V.Sc. (Scholar)",
+    experience: "4+ years",
+    specialization: "Pet Health, Preventive Care & Clinical Treatment",
+    description:
+      "Dr. Sukanta Mondal is a dedicated veterinary doctor focusing on preventive care, nutrition, and routine clinical treatment. With over 4 years of experience, he provides reliable diagnosis and compassionate treatment for dogs, cats, and small animals.",
+    imageId: "doctor-4",
+  },
+  {
+    name: "Dr. Shankar Kar, B.V.Sc. & A.H., M.V.Sc.",
+    experience: "14+ years",
+    specialization: "Veterinary Surgery, Diagnostics & Pet Consultancy",
+    description:
+      "With over 14 years of experience, Dr. Shankar Kar is a senior veterinary professional specializing in surgical care, advanced diagnostics, and overall pet health management. He is widely trusted for his experience and strong clinical judgment.",
+    imageId: "doctor-5",
+  },
+  {
+    name: "Dr. Placeholder Name",
+    experience: "0+ years",
+    specialization: "Veterinary Care",
+    description:
+      "This is a placeholder profile. You can replace this text later with the doctor's actual qualifications, specialization, and professional description.",
+    imageId: "doctor-6",
+  },
 ];
+
 
 export const allProducts = {
   "Pet Food": [

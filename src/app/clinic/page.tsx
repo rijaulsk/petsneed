@@ -252,14 +252,29 @@ export default function ClinicPage() {
                   border: "border-blue-200",
                 },
                 {
+                  bg: "bg-green-100",
+                  icon: "text-green-600",
+                  border: "border-green-200",
+                },
+                {
                   bg: "bg-purple-100",
                   icon: "text-purple-600",
                   border: "border-purple-200",
                 },
                 {
-                  bg: "bg-green-100",
-                  icon: "text-green-600",
-                  border: "border-green-200",
+                  bg: "bg-orange-100",
+                  icon: "text-orange-600",
+                  border: "border-orange-200",
+                },
+                {
+                  bg: "bg-teal-100",
+                  icon: "text-teal-600",
+                  border: "border-teal-200",
+                },
+                {
+                  bg: "bg-pink-100",
+                  icon: "text-pink-600",
+                  border: "border-pink-200",
                 },
               ];
               const scheme = colorSchemes[index % colorSchemes.length];
