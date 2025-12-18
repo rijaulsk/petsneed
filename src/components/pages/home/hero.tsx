@@ -11,20 +11,31 @@ import {
 } from '@/components/ui/carousel';
 import { Button } from '@/components/ui/button';
 import { Star } from 'lucide-react';
-import { PlaceHolderImages } from '@/lib/placeholder-images';
 import { siteConfig } from '@/lib/data';
 import { AnimatedSection } from '@/components/animated-section';
 import { PetIcon } from '@/components/decorative-icons';
 import React from 'react';
 import { cn } from '@/lib/utils';
 
-
+// Updated to use local images in the specified order
 const heroSlides = [
-  PlaceHolderImages.find(p => p.id === 'hero-1'),
-  PlaceHolderImages.find(p => p.id === 'hero-2'),
-  PlaceHolderImages.find(p => p.id === 'hero-3'),
-  PlaceHolderImages.find(p => p.id === 'hero-4'),
-].filter(Boolean);
+  {
+    imageUrl: '/images/hero/happy-dog-customer-pets-need-grooming.jpg',
+    description: 'Happy dog receiving care',
+  },
+  {
+    imageUrl: '/images/hero/pet-shop-supplies-medicines-alipore-kolkata.jpg',
+    description: 'Pet shop supplies and medicines',
+  },
+  {
+    imageUrl: '/images/hero/dog-nail-clipping-paw-care-service.jpg',
+    description: 'Professional dog nail clipping service',
+  },
+  {
+    imageUrl: '/images/hero/professional-dog-haircut-trimming-service.jpg',
+    description: 'Professional dog haircut and trimming',
+  },
+];
 
 export function Hero() {
   const [api, setApi] = React.useState<CarouselApi>()
@@ -35,10 +46,10 @@ export function Hero() {
     if (!api) {
       return
     }
- 
+
     setCount(api.scrollSnapList().length)
     setCurrent(api.selectedScrollSnap())
- 
+
     api.on("select", () => {
       setCurrent(api.selectedScrollSnap())
     })
@@ -92,7 +103,6 @@ export function Hero() {
                           <Image
                             src={slide.imageUrl}
                             alt={slide.description}
-                            data-ai-hint={slide.imageHint}
                             fill
                             className="object-cover transition-transform duration-500 ease-in-out group-hover:scale-105"
                             priority={index === 0}
