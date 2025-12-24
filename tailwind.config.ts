@@ -17,9 +17,9 @@ export default {
     },
     extend: {
       fontFamily: {
-        body: ['Quicksand', 'sans-serif'],
-        headline: ['Fredoka', 'sans-serif'],
-        button: ['Poppins', 'sans-serif'],
+        body: ['var(--font-quicksand)', 'sans-serif'],
+        headline: ['var(--font-fredoka)', 'sans-serif'],
+        button: ['var(--font-poppins)', 'sans-serif'],
         code: ['monospace'],
       },
       colors: {

@@ -4,7 +4,14 @@ import { Toaster } from "@/components/ui/toaster"
 import { Header } from '@/components/layout/header';
 import { Footer } from '@/components/layout/footer';
 import { FloatingCtaBar } from '@/components/layout/floating-cta-bar';
-import SchemaMarkup from '@/components/schema-markup';
+import { Fredoka, Quicksand, Poppins } from 'next/font/google';
+import dynamic from 'next/dynamic';
+
+const DynamicSchemaMarkup = dynamic(() => import('@/components/dynamic-schema-markup'), { ssr: false });
+
+const fredoka = Fredoka({ subsets: ['latin'], weight: ['600'], variable: '--font-fredoka' });
+const quicksand = Quicksand({ subsets: ['latin'], variable: '--font-quicksand' });
+const poppins = Poppins({ subsets: ['latin'], weight: ['600'], variable: '--font-poppins' });
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://petsneed.in'),
@@ -46,19 +53,14 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="!scroll-smooth">
-      <head>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@600&family=Quicksand:wght@400;500;600;700&family=Poppins:wght@600&display=swap" rel="stylesheet" />
-        <SchemaMarkup />
-      </head>
+    <html lang="en" className={`${fredoka.variable} ${quicksand.variable} ${poppins.variable} !scroll-smooth`}>
       <body className="font-body antialiased bg-background text-foreground">
         <Header />
         <main>{children}</main>
         <Footer />
         <FloatingCtaBar />
         <Toaster />
+        <DynamicSchemaMarkup />
       </body>
     </html>
   );

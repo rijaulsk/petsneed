@@ -40,6 +40,7 @@ export function AnimatedSection({
       style={{
         animationDelay: `${delay}ms`,
         animationDuration: `${duration}ms`,
+        willChange: 'transform, opacity',
       }}
       {...props}
     >

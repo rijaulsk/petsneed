@@ -36,6 +36,11 @@ const nextConfig: NextConfig = {
       },
     ],
   },
+  experimental: {
+    optimizeCss: true,
+    optimizeImages: true,
+    scrollRestoration: true,
+  },
 };
 
 export default nextConfig;

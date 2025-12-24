@@ -11,7 +11,6 @@ export function FloatingCtaBar() {
 
   useEffect(() => {
     const toggleVisibility = () => {
-      // Show after scrolling 400px down
       if (window.scrollY > 400) {
         setIsVisible(true);
       } else {
@@ -33,13 +32,13 @@ export function FloatingCtaBar() {
       style={{ boxShadow: '0 -4px 12px rgba(0,0,0,0.08)' }}
     >
       <div className="container mx-auto h-full flex items-center justify-center gap-2">
-        <Button asChild size="lg" className="flex-1 font-button">
+        <Button asChild size="lg" className="flex-1 font-button text-white">
           <a href={`tel:${siteConfig.phone}`} className="flex items-center">
             <Phone className="h-5 w-5 mr-2" />
             Call Now
           </a>
         </Button>
-        <Button asChild variant="secondary" size="lg" className="bg-green-100 text-green-800 hover:bg-green-200">
+        <Button asChild variant="secondary" size="lg" className="flex-1 font-button bg-green-100 text-green-800 hover:bg-green-200">
            <a href={`https://wa.me/${siteConfig.whatsapp}`} target="_blank" rel="noopener noreferrer" className="flex items-center">
             <MessageCircle className="h-5 w-5 mr-2" />
             WhatsApp

@@ -24,7 +24,7 @@ export function Header() {
   return (
     <div className="sticky top-0 z-50 w-full shadow-md">
       {/* --- Top Announcement Bar --- */}
-      <div className="bg-primary text-primary-foreground py-2 px-4 text-center text-xs md:text-sm font-bold tracking-wide">
+      <div className="bg-primary text-white py-3 px-4 text-center text-sm md:text-base font-bold tracking-wide">
         <a
           href="tel:+919748337732"
           className="flex items-center justify-center gap-2 hover:opacity-90 transition-opacity"
@@ -74,7 +74,7 @@ export function Header() {
                 WhatsApp
               </a>
             </Button>
-            <Button asChild size="sm" className="font-button">
+            <Button asChild size="sm" className="font-button text-white">
               <a href={`tel:${siteConfig.phone}`}>
                 <Phone className="h-4 w-4 mr-2" />
                 Call Now
@@ -121,7 +121,7 @@ export function Header() {
                   ))}
                 </nav>
                 <div className="mt-8 pt-8 border-t">
-                  <Button asChild size="lg" className="w-full font-button">
+                  <Button asChild size="lg" className="w-full font-button text-white">
                     <a href={`tel:${siteConfig.phone}`}>
                       <Phone className="h-5 w-5 mr-3" />
                       Call Now
