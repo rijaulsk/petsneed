@@ -1,4 +1,4 @@
-'use client';
+"use client";
 
 import Image from 'next/image';
 import Link from 'next/link';
@@ -16,29 +16,29 @@ import { AnimatedSection } from '@/components/animated-section';
 import { PetIcon } from '@/components/decorative-icons';
 import React from 'react';
 import { cn } from '@/lib/utils';
+import { PawPrint } from '@/components/icons';
 
-// Updated to use local images in the specified order
 const heroSlides = [
   {
-    imageUrl: '/images/hero/happy-dog-customer-pets-need-grooming.jpg',
+    imageUrl: '/images/happy-dog-customer-pets-need-grooming.jpg',
     description: 'Happy dog receiving care',
     alt: 'Happy dog customer at Pets Need grooming service',
     keywords: ['dog grooming', 'happy dog', 'pet care']
   },
   {
-    imageUrl: '/images/hero/pet-shop-supplies-medicines-alipore-kolkata.jpg',
+    imageUrl: '/images/pet-shop-supplies-medicines-alipore-kolkata.jpg',
     description: 'Pet shop supplies and medicines',
     alt: 'Pet shop supplies and medicines in Alipore, Kolkata',
     keywords: ['pet shop', 'pet medicines', 'Alipore pet supplies']
   },
   {
-    imageUrl: '/images/hero/dog-nail-clipping-paw-care-service.jpg',
-    description: 'Professional dog nail clipping service',
-    alt: 'Dog nail clipping and paw care service',
-    keywords: ['dog nail clipping', 'paw care', 'pet grooming']
+    imageUrl: '/images/veterinary-clinic-room-alipore.jpg',
+    description: 'Expert Care You Can Trust',
+    alt: 'The well-equipped veterinary clinic room at Pets Need in Alipore',
+    keywords: ['veterinary clinic', 'pet health', 'Alipore vet']
   },
   {
-    imageUrl: '/images/hero/professional-dog-haircut-trimming-service.jpg',
+    imageUrl: '/images/professional-dog-haircut-trimming-service.jpg',
     description: 'Professional dog haircut and trimming',
     alt: 'Professional dog haircut and trimming service',
     keywords: ['dog haircut', 'dog trimming', 'pet grooming']
@@ -66,7 +66,7 @@ export function Hero() {
   return (
     <section className="relative bg-background pt-16 md:pt-24 pb-12 md:pb-20 overflow-hidden">
       <PetIcon className="top-20 left-10 h-24 w-24 -rotate-12" />
-      <PetIcon as={require("@/components/icons").PawPrint} className="bottom-10 right-10 h-16 w-16 rotate-12" />
+      <PetIcon as={PawPrint} className="bottom-10 right-10 h-16 w-16 rotate-12" />
       <div className="container mx-auto px-4 md:px-6">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
           <AnimatedSection className="space-y-6 text-center lg:text-left">

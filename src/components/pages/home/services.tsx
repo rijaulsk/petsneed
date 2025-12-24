@@ -3,7 +3,7 @@ import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { services } from "@/lib/data";
-import { PlaceHolderImages } from "@/lib/placeholder-images";
+import { placeholderImages } from "@/lib/image-data";
 import { AnimatedSection } from "@/components/animated-section";
 
 export function Services() {
@@ -18,7 +18,7 @@ export function Services() {
         </AnimatedSection>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {services.map((service, index) => {
-            const image = PlaceHolderImages.find(p => p.id === service.imageId);
+            const image = placeholderImages[service.imageId as keyof typeof placeholderImages];
             return (
               <AnimatedSection as="div" key={service.title} delay={index * 100}>
                 <Card className="overflow-hidden group transition-all duration-300 hover:shadow-2xl hover:-translate-y-2 h-full flex flex-col">

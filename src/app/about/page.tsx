@@ -12,7 +12,7 @@ import {
 
 import { PageShell } from "@/components/page-shell";
 import { Card, CardContent } from "@/components/ui/card";
-import { PlaceHolderImages } from "@/lib/placeholder-images";
+import { placeholderImages } from "@/lib/image-data";
 import { testimonials } from "@/lib/data";
 import { AnimatedSection } from "@/components/animated-section";
 import { PetIcon } from "@/components/decorative-icons";
@@ -27,8 +27,8 @@ export const metadata: Metadata = {
     "Learn about Pet's Need - Alipore, Kolkata's complete pet care center serving 3000+ happy pet parents. Professional grooming, veterinary care, quality supplies. 5.0★ rated with 242+ reviews. Visit us in Kolkata.",
 };
 
-const heroImage = PlaceHolderImages.find((p) => p.id === "about-hero");
-const storyImage = PlaceHolderImages.find((p) => p.id === "about-story-image");
+const heroImage = placeholderImages["about-hero"];
+const storyImage = placeholderImages["about-story-image"];
 
 const values = [
   {

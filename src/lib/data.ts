@@ -87,7 +87,7 @@ export const services = [
       text: "Learn More & Book",
       href: "/products",
     },
-    imageId: "service-store",
+    imageId: "service-products",
   },
 ];
 
@@ -324,7 +324,7 @@ export const footerLinks = {
 export const doctors = [
   {
     name: "Dr. Rabiul Khan, B.V.Sc. & A.H., M.V.Sc.",
-    experience: "7+ years",
+    experience: "4+ years",
     specialization: "Veterinary Surgery, Radiology & Advanced Imaging",
     description:
       "Dr. Rabiul Khan is a highly skilled veterinary surgeon from WBUAFS, Belgachia. He specializes in small and large animal surgery, radiology, and advanced imaging techniques. With over 7 years of experience, he is known for precise diagnosis, detailed imaging-based evaluation, and compassionate treatment.",
@@ -338,17 +338,17 @@ export const doctors = [
       "Dr. Selim Sk completed his veterinary degree from WBUAFS, Belgachia. With more than 3 years of clinical experience, he provides routine consultations, vaccinations, and general medical treatments for dogs, cats, and small animals. He is known for his patient and calm approach to handling pets.",
     imageId: "doctor-2",
   },
-  {
-    name: "Dr. Mosiur Rahaman, B.V.Sc. & A.H. (Gold Medalist), M.V.Sc. (Scholar)",
-    experience: "4+ years",
-    specialization: "Veterinary Surgery, Clinical Medicine & Diagnostics",
-    description:
-      "Dr. Mosiur Rahaman, a Gold Medalist and M.V.Sc Scholar at WBUAFS, specializes in clinical medicine, surgical procedures, and advanced diagnostics. With 4+ years of experience, he is recognized for his modern treatment techniques, in-depth evaluations, and strong academic excellence.",
-    imageId: "doctor-3",
-  },
+  // {
+  //   name: "Dr. Mosiur Rahaman, B.V.Sc. & A.H. (Gold Medalist), M.V.Sc. (Scholar)",
+  //   experience: "4+ years",
+  //   specialization: "Veterinary Surgery, Clinical Medicine & Diagnostics",
+  //   description:
+  //     "Dr. Mosiur Rahaman, a Gold Medalist and M.V.Sc Scholar at WBUAFS, specializes in clinical medicine, surgical procedures, and advanced diagnostics. With 4+ years of experience, he is recognized for his modern treatment techniques, in-depth evaluations, and strong academic excellence.",
+  //   imageId: "doctor-3",
+  // },
   {
     name: "Dr. Sukanta Mondal, B.V.Sc. & A.H., M.V.Sc. (Scholar)",
-    experience: "4+ years",
+    experience: "3+ years",
     specialization: "Pet Health, Preventive Care & Clinical Treatment",
     description:
       "Dr. Sukanta Mondal is a dedicated veterinary doctor focusing on preventive care, nutrition, and routine clinical treatment. With over 4 years of experience, he provides reliable diagnosis and compassionate treatment for dogs, cats, and small animals.",

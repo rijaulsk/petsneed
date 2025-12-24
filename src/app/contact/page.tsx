@@ -9,7 +9,7 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
-import { PlaceHolderImages } from "@/lib/placeholder-images";
+import { placeholderImages } from "@/lib/image-data";
 import { siteConfig, quickContact } from "@/lib/data";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     "Contact Pet's Need at 10/1D Diamond Harbour Rd, Alipore, Kolkata. Call 9748337732 for grooming, vet services, pet supplies. Open daily 10 AM - 10 PM. Serving South Kolkata pet families.",
 };
 
-const heroImage = PlaceHolderImages.find((p) => p.id === "contact-hero");
+const heroImage = placeholderImages["contact-hero"];
 
 const faqs = [
   {

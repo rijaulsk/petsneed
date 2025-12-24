@@ -21,7 +21,7 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import { PlaceHolderImages } from "@/lib/placeholder-images";
+import { placeholderImages } from "@/lib/image-data";
 import { siteConfig, doctors } from "@/lib/data";
 import { AnimatedSection } from "@/components/animated-section";
 import { PetIcon } from "@/components/decorative-icons";
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     "Trusted veterinary clinic in Alipore, Kolkata. Experienced vets provide checkups, vaccinations, treatments for dogs, cats, birds, and large animals. Serving South Kolkata. Call 9748337732 for appointment.",
 };
 
-const heroImage = PlaceHolderImages.find((p) => p.id === "clinic-hero");
+const heroImage = placeholderImages["clinic-hero"];
 
 const services = [
   {

@@ -8,8 +8,11 @@ import { type ImagePlaceholder } from "@/lib/placeholder-images";
 import { cn } from "@/lib/utils";
 import { Button } from "./ui/button";
 
+// Create a version of the type where 'id' is optional (?)
+type GalleryImage = Omit<ImagePlaceholder, "id"> & { id?: string };
+
 interface GroomingImageGalleryProps {
-  images: ImagePlaceholder[];
+  images: GalleryImage[];
 }
 
 export const GroomingImageGallery: React.FC<GroomingImageGalleryProps> = ({
@@ -62,7 +65,7 @@ export const GroomingImageGallery: React.FC<GroomingImageGalleryProps> = ({
           <div className="relative h-full w-full overflow-hidden rounded-2xl">
             {mainImage && (
               <Image
-                key={mainImage.id}
+                key={mainImage.id || mainImage.imageUrl}
                 src={mainImage.imageUrl}
                 alt={mainImage.description}
                 data-ai-hint={mainImage.imageHint}
@@ -79,7 +82,7 @@ export const GroomingImageGallery: React.FC<GroomingImageGalleryProps> = ({
           <div className="flex gap-4 -ml-4 pl-4">
             {images.map((image, index) => (
               <div
-                key={image.id + index}
+                key={image.id || index}
                 className="flex-shrink-0 flex-grow-0 basis-1/4 md:basis-1/5 lg:basis-1/6"
               >
                 <button

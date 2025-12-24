@@ -11,6 +11,9 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+// Import for Hero Image (New Code)
+import { placeholderImages } from "@/lib/image-data";
+// Import for Product Images (Old Code)
 import { PlaceHolderImages } from "@/lib/placeholder-images";
 import {
   siteConfig,
@@ -30,10 +33,14 @@ export const metadata: Metadata = {
     "Quality pet supplies in Alipore, Kolkata - food, toys, accessories, health products & medicines for dogs, cats, birds, small pets. Brands: Royal Canin, Pedigree, Drools, Farmina. Visit our store near Tollygunge!",
 };
 
-const heroImage = PlaceHolderImages.find((p) => p.id === "products-hero");
+// --- UPDATED: Hero Image uses NEW CODE logic ---
+const heroImage = placeholderImages["products-hero"];
 
+// --- UNCHANGED: ProductCard uses OLD CODE logic ---
 const ProductCard = ({ product }: { product: Product }) => {
+  // Using .find() from PlaceHolderImages (Old Code)
   const image = PlaceHolderImages.find((p) => p.id === product.imageId);
+  
   return (
     <Card className="h-full flex flex-col group transition-all duration-300 hover:shadow-xl hover:-translate-y-1">
       {image && (
@@ -181,7 +188,11 @@ export default function ProductsPage() {
             <div className="flex justify-center">
               <TabsList className="h-auto flex-wrap justify-center">
                 {productCategories.map((cat) => (
-                  <TabsTrigger key={cat.name} value={cat.name} className="py-2">
+                  <TabsTrigger
+                    key={cat.name}
+                    value={cat.name}
+                    className="py-2"
+                  >
                     <cat.icon className="mr-2 h-4 w-4" />
                     {cat.name}
                   </TabsTrigger>

@@ -8,7 +8,7 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
-import { PlaceHolderImages } from "@/lib/placeholder-images";
+import { placeholderImages } from "@/lib/image-data";
 import { siteConfig } from "@/lib/data";
 import { Phone, Scissors } from "lucide-react";
 import { AnimatedSection } from "@/components/animated-section";
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     "Professional pet grooming services in Alipore, Kolkata for dogs, cats, and small animals. Expert groomers, safe products, gentle handling. Book grooming near Behala, Tollygunge. Call 9748337732 today!",
 };
 
-const heroImage = PlaceHolderImages.find((p) => p.id === "grooming-hero");
+const heroImage = placeholderImages["grooming-hero"];
 
 const services = [
   {
@@ -87,14 +87,14 @@ const seasonalTips = [
 ];
 
 const galleryImages = [
-  PlaceHolderImages.find((p) => p.id === "grooming-gallery-1"),
-  PlaceHolderImages.find((p) => p.id === "grooming-gallery-2"),
-  PlaceHolderImages.find((p) => p.id === "grooming-gallery-3"),
-  PlaceHolderImages.find((p) => p.id === "grooming-gallery-4"),
-  PlaceHolderImages.find((p) => p.id === "service-full-groom"),
-  PlaceHolderImages.find((p) => p.id === "service-basic-groom"),
-  PlaceHolderImages.find((p) => p.id === "service-spa"),
-  PlaceHolderImages.find((p) => p.id === "service-puppy-groom"),
+  placeholderImages["grooming-gallery-1"],
+  placeholderImages["grooming-gallery-2"],
+  placeholderImages["grooming-gallery-3"],
+  placeholderImages["grooming-gallery-4"],
+  placeholderImages["service-full-groom"],
+  placeholderImages["service-basic-groom"],
+  placeholderImages["service-spa"],
+  placeholderImages["service-puppy-groom"],
 ].filter(Boolean);
 
 const faqs = [
@@ -204,9 +204,7 @@ export default function GroomingPage() {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {services.map((service, index) => {
-              const image = PlaceHolderImages.find(
-                (p) => p.id === service.imageId
-              );
+              const image = placeholderImages[service.imageId as keyof typeof placeholderImages];
               return (
                 <AnimatedSection
                   as="div"
