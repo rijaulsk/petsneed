@@ -5,9 +5,7 @@ import { Header } from '@/components/layout/header';
 import { Footer } from '@/components/layout/footer';
 import { FloatingCtaBar } from '@/components/layout/floating-cta-bar';
 import { Fredoka, Quicksand, Poppins } from 'next/font/google';
-import dynamic from 'next/dynamic';
-
-const DynamicSchemaMarkup = dynamic(() => import('@/components/dynamic-schema-markup'), { ssr: false });
+import DynamicSchemaMarkup from '@/components/dynamic-schema-markup';
 
 const fredoka = Fredoka({ subsets: ['latin'], weight: ['600'], variable: '--font-fredoka' });
 const quicksand = Quicksand({ subsets: ['latin'], variable: '--font-quicksand' });
