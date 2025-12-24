@@ -22,18 +22,26 @@ const heroSlides = [
   {
     imageUrl: '/images/hero/happy-dog-customer-pets-need-grooming.jpg',
     description: 'Happy dog receiving care',
+    alt: 'Happy dog customer at Pets Need grooming service',
+    keywords: ['dog grooming', 'happy dog', 'pet care']
   },
   {
     imageUrl: '/images/hero/pet-shop-supplies-medicines-alipore-kolkata.jpg',
     description: 'Pet shop supplies and medicines',
+    alt: 'Pet shop supplies and medicines in Alipore, Kolkata',
+    keywords: ['pet shop', 'pet medicines', 'Alipore pet supplies']
   },
   {
     imageUrl: '/images/hero/dog-nail-clipping-paw-care-service.jpg',
     description: 'Professional dog nail clipping service',
+    alt: 'Dog nail clipping and paw care service',
+    keywords: ['dog nail clipping', 'paw care', 'pet grooming']
   },
   {
     imageUrl: '/images/hero/professional-dog-haircut-trimming-service.jpg',
     description: 'Professional dog haircut and trimming',
+    alt: 'Professional dog haircut and trimming service',
+    keywords: ['dog haircut', 'dog trimming', 'pet grooming']
   },
 ];
 
@@ -102,7 +110,7 @@ export function Hero() {
                         {slide && (
                           <Image
                             src={slide.imageUrl}
-                            alt={slide.description}
+                            alt={slide.alt}
                             fill
                             className="object-cover transition-transform duration-500 ease-in-out group-hover:scale-105"
                             priority={index === 0}
