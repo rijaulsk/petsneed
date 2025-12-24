@@ -34,7 +34,7 @@ export const siteConfig = {
   email: "contact@petsneed.in",
   address: "10/1D, Diamond Harbour Road, Alipore, Kolkata, West Bengal 700027",
   mapLink: "https://www.google.com/maps/place/Pet's+Need/@22.5228595,88.2868882,6506m/data=!3m1!1e3!4m6!3m5!1s0x3a0277cd1afad30f:0xa5e03916921fc384!8m2!3d22.5228595!4d88.324997!16s%2Fg%2F11y3z52q3l?entry=ttu&g_ep=EgoyMDI1MTExMi4wIKXMDSoASAFQAw%3D%3D",
-  googleReviewsLink: "https://www.google.com/maps/search/?api=1&query=Pet's+Need+Alipore+Kolkata",
+  googleReviewsLink: "https://g.page/r/CYTDH5IWOeClEBM/review",
 };
 
 export type NavItem = {

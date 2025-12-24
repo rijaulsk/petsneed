@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { PawPrint } from '../icons';
+import { PawPrint, Facebook } from '../icons';
 import { siteConfig, footerLinks } from '@/lib/data';
 import { Phone, MessageCircle, Mail, MapPin, Clock, Star, ArrowUpRight } from 'lucide-react';
 import { AnimatedSection } from '../animated-section';
@@ -20,10 +20,15 @@ export function Footer() {
               <br />
               Your pet's happy place in Alipore, Kolkata.
             </p>
-            <div className="flex items-center gap-2 rounded-lg bg-white/10 p-2 text-sm text-white">
-              <Star className="h-5 w-5 text-yellow-400 fill-yellow-400" />
-              <strong>5.0</strong>
-              <span>• 242+ Happy Reviews</span>
+            <div className="flex items-center gap-4">
+              <a href="https://www.facebook.com/petsneedkolkata/" target="_blank" rel="noopener noreferrer" className="text-white hover:text-primary transition-colors">
+                <Facebook className="h-6 w-6" />
+              </a>
+              <div className="flex items-center gap-2 rounded-lg bg-white/10 p-2 text-sm text-white">
+                <Star className="h-5 w-5 text-yellow-400 fill-yellow-400" />
+                <strong>5.0</strong>
+                <span>• 242+ Happy Reviews</span>
+              </div>
             </div>
           </div>
 

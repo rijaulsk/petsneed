@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { siteConfig } from "@/lib/data";
-import { ArrowRight, Phone, Map } from "lucide-react";
+import { ArrowRight, Phone, Map, Star } from "lucide-react";
 import { AnimatedSection } from "@/components/animated-section";
 
 export function Cta() {
@@ -22,6 +22,12 @@ export function Cta() {
             <a href={siteConfig.mapLink} target="_blank" rel="noopener noreferrer">
                 <Map className="mr-2 h-5 w-5" />
                 Get Directions
+            </a>
+          </Button>
+          <Button asChild size="lg" variant="outline" className="border-white bg-white/10 text-white font-button group">
+            <a href={siteConfig.googleReviewsLink} target="_blank" rel="noopener noreferrer">
+                <Star className="mr-2 h-5 w-5" />
+                Leave a Review
             </a>
           </Button>
         </div>

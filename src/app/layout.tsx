@@ -4,6 +4,7 @@ import { Toaster } from "@/components/ui/toaster"
 import { Header } from '@/components/layout/header';
 import { Footer } from '@/components/layout/footer';
 import { FloatingCtaBar } from '@/components/layout/floating-cta-bar';
+import SchemaMarkup from '@/components/schema-markup';
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://petsneed.in'),
@@ -50,6 +51,7 @@ export default function RootLayout({
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@600&family=Quicksand:wght@400;500;600;700&family=Poppins:wght@600&display=swap" rel="stylesheet" />
+        <SchemaMarkup />
       </head>
       <body className="font-body antialiased bg-background text-foreground">
         <Header />
